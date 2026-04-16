@@ -1,10 +1,10 @@
 export const siteIdentity = {
   code: process.env.NEXT_PUBLIC_SITE_CODE || 'sr9q2v4x7m',
   name: process.env.NEXT_PUBLIC_SITE_NAME || 'Steadfast Results',
-  tagline: process.env.NEXT_PUBLIC_SITE_TAGLINE || 'Independent editorial platform',
+  tagline: process.env.NEXT_PUBLIC_SITE_TAGLINE || 'Focused publishing for business insights',
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-    'A focused article-led platform for insights, publishing, and long-form updates.',
+    'An editorial platform for clear article publishing, insights, and practical commentary.',
   domain: process.env.NEXT_PUBLIC_SITE_DOMAIN || 'steadfastresults.com',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://steadfastresults.com',
   ogImage: process.env.NEXT_PUBLIC_SITE_OG_IMAGE || '/og-default.png',
